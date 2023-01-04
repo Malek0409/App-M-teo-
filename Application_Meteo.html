@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="Style.CSS.APP.Meteo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Méteo App</title>
+</head>
+
+<body>
+    <div>
+        <h2 id="title">Météo</h2>
+        <img class="soleil" src="soleil.png" >
+    </div>
+    <div>
+      <h2 class="title">1-Lundi</h2>
+        <button onclick="a()">- 10</button>
+        <button onclick="b()">-20</button>
+        <button onclick="c()">-30</button>
+        <p id="result2"></p>
+    </div>
+    <div>
+        <input id="pays" data-test-id="malik" type="text">
+        <button onclick="rechercher()">Rechercher</button>
+        <p id="result"></p>
+    </div>
+</body>
+<script src="Script.App.Meteo.js">
+</script>
+
+</html>
